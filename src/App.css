@@ -1,0 +1,51 @@
+/* Colors
+#360568 Persian indigo
+#5B2A86 Tekhelet
+#7785AC Glaucous
+#9AC6C5 Light blue
+#A5E6BA Celadon
+#695899 Ultra Violet
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #360568;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-title {
+  width: 500px;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bold;
+  margin-top: 45px;
+}
+
+.signature {
+  width: 200px;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.signature-name {
+  color: #ce4760;
+  font-size: 20px;
+}

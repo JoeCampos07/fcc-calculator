@@ -1,0 +1,40 @@
+.long-button {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.height-button {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.normal-button,
+.long-button,
+.height-button {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.normal-button:hover,
+.long-button:hover,
+.height-button:hover {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 35px;
+  color: black;
+  border: solid white 2px;
+}
+
+.operation {
+  background-color: #7785ac;
+}
+.number {
+  background-color: #9ac6c5;
+}
+.reset {
+  background-color: #ce4760;
+}
+.equal {
+  background-color: #ffbf46;
+}
